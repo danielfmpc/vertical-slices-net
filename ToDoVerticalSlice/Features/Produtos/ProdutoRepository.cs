@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using ToDoVerticalSlice.Domain;
 using ToDoVerticalSlice.Infrastructure.Context;
 
-namespace ToDoVerticalSlice.Features;
+namespace ToDoVerticalSlice.Features.Produtos;
 
 public class ProdutoRepository(ProdutoDbContext context)
 {
