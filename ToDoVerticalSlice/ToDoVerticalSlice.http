@@ -1,0 +1,11 @@
+@ToDoVerticalSlice_HostAddress = http://localhost:5116
+
+GET {{ToDoVerticalSlice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
+###
+DELETE {{ToDoVerticalSlice_HostAddress}}/produtos/ca1ca086-00fa-45d5-882c-4b085528e2f6
+ 
+
+###
