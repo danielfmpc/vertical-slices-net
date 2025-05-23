@@ -6,6 +6,45 @@ Accept: application/json
 
 ###
 DELETE {{ToDoVerticalSlice_HostAddress}}/produtos/ca1ca086-00fa-45d5-882c-4b085528e2f6
- 
+###
+
+###
+GET {{ToDoVerticalSlice_HostAddress}}/todos
+###
+
+###
+POST {{ToDoVerticalSlice_HostAddress}}/todos
+Content-Type: application/json
+
+{
+  "title": "New Todo Item"
+}
+
+###
+
+###
+# Pegar Id da base
+GET {{ToDoVerticalSlice_HostAddress}}/todos/d2abb9e0-4dad-4bb9-a1fd-8a77958b5969
+###
+
+###
+POST {{ToDoVerticalSlice_HostAddress}}/todos/title
+Content-Type: application/json
+
+{
+  "id": "d2abb9e0-4dad-4bb9-a1fd-8a77958b5969",
+  "title": "New Todo Item"
+}
+
+###
+
+###
+POST {{ToDoVerticalSlice_HostAddress}}/todos/done
+Content-Type: application/json
+
+{
+  "id": "d2abb9e0-4dad-4bb9-a1fd-8a77958b5969",
+  "done": true
+}
 
 ###
