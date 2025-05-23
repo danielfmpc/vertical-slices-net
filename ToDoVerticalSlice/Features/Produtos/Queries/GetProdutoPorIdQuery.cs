@@ -2,7 +2,7 @@ using FluentResults;
 using MediatR;
 using ToDoVerticalSlice.Domain;
 
-namespace ToDoVerticalSlice.Features.Queries;
+namespace ToDoVerticalSlice.Features.Produtos.Queries;
 
 public record struct GetProdutoPorIdQuery(Guid Id) : IRequest<Result<Produto>>;
 

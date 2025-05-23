@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using ToDoVerticalSlice.Features;
-using ToDoVerticalSlice.Features.Controllers;
+using ToDoVerticalSlice.Features.Produtos.Controllers;
 using ToDoVerticalSlice.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);

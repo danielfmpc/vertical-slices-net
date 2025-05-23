@@ -1,9 +1,9 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using ToDoVerticalSlice.Features.Commands;
-using ToDoVerticalSlice.Features.Queries;
+using ToDoVerticalSlice.Features.Produtos.Commands;
+using ToDoVerticalSlice.Features.Produtos.Queries;
 
-namespace ToDoVerticalSlice.Features.Controllers;
+namespace ToDoVerticalSlice.Features.Produtos.Controllers;
 
 public static class ProductsEndpoint
 {

@@ -2,7 +2,7 @@ using FluentResults;
 using MediatR;
 using ToDoVerticalSlice.Domain;
 
-namespace ToDoVerticalSlice.Features.Commands;
+namespace ToDoVerticalSlice.Features.Produtos.Commands;
 
 public record struct UpdateProdutoCommand(Guid Id, string Name, decimal Price) : IRequest<Result<Produto>>;
 
